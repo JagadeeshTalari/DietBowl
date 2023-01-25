@@ -1,13 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9de1acd69f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Diet Bowl</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./imgs/logo.PNG" alt="" />
+        </div>
+
+        <div class="nav-right-part">
+          <div class="nav-list">
+            <a
+              class="active-nav-list-item"
+              style="font-weight: 700"
+              href="#features"
+              >Features</a
+            >
+            <a href="#download">Download</a>
+            <a href="#about">About Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-heading">
+        <h2>Healthy Food,</h2>
+        <h2>Healthy Life.</h2>
+        <p class="text">
+          Order food according to nutritions values and get food recommendations
+          based on your health conditions
+        </p>
+        <div class="head-scroll-text">
+          <div>SCROLL</div>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <div>
+          <img class="bg-blob" src="./imgs/bg-head-blob.svg" alt="" />
+          <img class="main-hero-img" src="./imgs/hero-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section2" id="features">
+      <div class="watermark Features-wtmrk">Features</div>
+
+      <div class="sec2-imgs">
+        <img class="sec2-blob" src="./imgs/sec2-blob.svg" alt="" />
+        <img
+          class="nutri-phone-img"
+          src="./imgs/nutri-img-copy-removebg-preview.png"
+          alt=""
+        />
+        <img src="./imgs/nutri-leaves.png" alt="sec2-nutri-leaves" />
+      </div>
+
+      <div class="sec2-content">
+        <div class="sec2-num">
+          <div class="sec2-num-line"></div>
+          <div>01</div>
+        </div>
+        <h2 class="sec-heading">Track Nutritions</h2>
+        <div>
+          Maintain a healthy diet by tracking your <br />
+          consumption of nutritions and calories on <br />
+          the basis of your orders... <span class="know-more">know more</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3 card" id="about">
+      <div class="watermark Testimonials-wtmrk">Testimonials</div>
+      <h2 class="sec-heading Testimonials">Testimonials</h2>
+
+      <div class="sec3-img">
+        <img src="./imgs/girlImg.png" alt="" />
+      </div>
+      <!-- content -->
+      <div class="sec3-content">
+        <h4>Christiana James</h4>
+        <div>
+          <i class="star fa-solid fa-star"></i>
+          <i class="star fa-solid fa-star"></i>
+          <i class="star fa-solid fa-star"></i>
+          <i class="star fa-solid fa-star"></i>
+          <i class="star inactive-star fa-solid fa-star"></i>
+        </div>
+        <div class="text">
+          Being a gym freak, the Nutri Tracker feature has <br />
+          helped me a lot in maintaining a healthy diet <br />
+          and by far is the best feature of the application
+        </div>
+      </div>
+      <!-- profiles -->
+      <div>
+        <img
+          src="./imgs/testimonials-profiles-img.PNG"
+          alt="testimonials-profiles-img"
+        />
+      </div>
+    </section>
+
+    <section class="section4" id="download">
+      <div class="watermark">Download</div>
+      <!-- left-side-section -->
+      <div>
+        <img
+          class="download-phone-img"
+          src="./imgs/download-img-removebg-preview (1).png"
+          alt=""
+        />
+        <!-- <img
+          class="download-phone-img"
+          src="./imgs/download-phone-img.png"
+          alt=""
+        /> -->
+      </div>
+      <!-- right-side-section -->
+      <div>
+        <div class="Download-app-headingText">Download App</div>
+        <div class="install-text">
+          Install the app and start ordering now!!!
+        </div>
+
+        <!-- Buttons -->
+        <div class="sec4-Buttons-section">
+          <!-- appstore -->
+          <div class="store-btn">
+            <div class="img">
+              <i class="fa-brands fa-apple"></i>
+            </div>
+            <div>
+              <div class="store-btn-text">Download on the</div>
+              <div class="store-btn-heading">App Store</div>
+            </div>
+          </div>
+          <!-- google play store -->
+          <div class="store-btn">
+            <div class="img">
+              <img src="./imgs/icons8-google-play.svg" alt="" />
+            </div>
+            <div>
+              <div class="store-btn-text">GET IT ON</div>
+              <div class="store-btn-heading">Google Play</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <img class="footer-bg-svg" src="./imgs/footer-bg.svg" alt="" />
+
+        <div class="footer-header-sec">
+          <div class="footer-left-sec">
+            <div class="footer-logo">
+              <img src="./imgs/footer-logo.PNG" alt="" />
+            </div>
+            <!-- footer-header-content -->
+            <div>
+              <p>
+                DietBowl is a food order and delivery application which helps
+                you
+                <br />
+                maintain a healthy diet by tracking your nutritions according to
+                <br />
+                your orders. It also provides you the service to consult a
+                physician
+                <br />
+                or dietician to set a healthy diet which is perfect for your
+                body.
+              </p>
+            </div>
+            <!-- subscribe-section -->
+            <div class="footer-subscribe-section">
+              <button>Subscribe</button>
+              <div>Subscribe to our news letter to receive offers</div>
+            </div>
+          </div>
+
+          <div class="footer-right-sec footer-img-sec">
+            <img class="footer-img" src="./imgs/footer-img1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="footer-list">
+          <div class="footer-list1">
+            <div>Services</div>
+            <div>Meal Orders</div>
+            <div>Nutri Tracker</div>
+            <div>Consultation</div>
+            <div>Kitchen Partners</div>
+          </div>
+          <div class="footer-list2">
+            <div>Contact</div>
+            <div>
+              Beach Road, white Town, <br />
+              Puducherry -605003
+            </div>
+            <div>support@dietbowl.com</div>
+            <div>1800-10-123</div>
+          </div>
+          <div class="footer-list3">
+            <div>Follow Us</div>
+            <div class="social-icons footer-social-icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="twitter-icon fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-terms-section">
+          <div>
+            By continuing past this page, you agree to our Terms of Service,
+            Cookie Policy, Privacy Policy and Content Poloicies. All trademarks
+            are properties of their respective owners. 2008-2021 c DietBowl Pvt
+            Ltd. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
